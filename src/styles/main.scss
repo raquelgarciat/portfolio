@@ -1,0 +1,20 @@
+@import 'core/reset';
+@import 'core/var';
+
+@import 'layout/main_page';
+@import 'layout/header';
+@import 'layout/main_main';
+@import 'layout/main_nav';
+@import 'layout/main_about';
+@import 'layout/main_projects';
+@import 'layout/footer';
+
+:root {
+  background-color: #D5D3C5;
+}
+
+@font-face {
+  font-family: "Lumios";
+  src: local("lumios"),
+    url("../fonts/lumios.otf") format("opentype");
+}
