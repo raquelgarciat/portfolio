@@ -8,8 +8,8 @@ function App() {
       <header className='header'>
         <img src={headerpic} alt='logo' className='header_logo' />
       </header>
-      <main className='main'>
-        <nav className='main_nav'>
+      
+        <nav className='nav'>
           <ul>
             <li>Home</li>
             <li>About</li>
@@ -17,6 +17,7 @@ function App() {
             <li>Contact</li>
           </ul>
         </nav>
+        <main className='main'>
         <section className='main_about'>
           <h3>About</h3>
           <p>
@@ -29,11 +30,24 @@ function App() {
         <section className='main_projects'>
           <div>
             <h3>Personal projects</h3>
-            <ul></ul>
+            <ul>
+              <li>¡Oído cocina! Un juego de cartas.</li>
+              <li>Japan travel planner</li>
+              <li>Warhammer 40k API (RESTful)</li>
+            </ul>
           </div>
           <div>
             <h3>Projects with Adalab</h3>
-            <ul></ul>
+            <ul>
+              <li>Módulo 1 - Evaluación final</li>
+              <li>Módulo 1 - Trabajo grupal</li>
+              <li>Módulo 2 - Evaluación intermedia</li>
+              <li>Módulo 2 - Evaluación final</li>
+              <li>Módulo 2 - Trabajo grupal</li>
+              <li>Módulo 3 - Evaluación final</li>
+              <li>Módulo 3 - Trabajo grupal</li>
+              <li>Módulo 4 - Trabajo grupal</li>
+            </ul>
           </div>
         </section>
       </main>
