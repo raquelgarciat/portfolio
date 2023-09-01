@@ -32,38 +32,34 @@ function App() {
       </nav>
       <main className='main'>
         <section className='main_projects'>
-          <div>
-            <h3>Proyectos personales</h3>
-            <ul>
-              <li>¡Oído cocina! Un juego de cartas.</li>
-              <li>Japan travel planner</li>
-              <li>Warhammer 40k API (RESTful)</li>
-            </ul>
-          </div>
-          <div>
-            <h3>Proyectos en Adalab</h3>
-            <ul>
-              <li>Módulo 1 - Evaluación final</li>
-              <li>Módulo 1 - Trabajo grupal</li>
-              <li>Módulo 2 - Evaluación intermedia</li>
-              <li>Módulo 2 - Evaluación final</li>
-              <li>Módulo 2 - Trabajo grupal</li>
-              <li>Módulo 3 - Evaluación final</li>
-              <li>Módulo 3 - Trabajo grupal</li>
-              <li>Módulo 4 - Trabajo grupal</li>
-            </ul>
-          </div>
+          <h3 className='main_title'>Proyectos personales</h3>
+          <ul>
+            <li>¡Oído cocina! Un juego de cartas.</li>
+            <li>Japan travel planner</li>
+            <li>Warhammer 40k API (RESTful)</li>
+          </ul>
+        </section>
+        <section className='main_projects'>
+          <h3 className='main_title'>Proyectos en Adalab</h3>
+          <ul>
+            <li>Módulo 1 - Evaluación final</li>
+            <li>Módulo 1 - Trabajo grupal</li>
+            <li>Módulo 2 - Evaluación intermedia</li>
+            <li>Módulo 2 - Evaluación final</li>
+            <li>Módulo 2 - Trabajo grupal</li>
+            <li>Módulo 3 - Evaluación final</li>
+            <li>Módulo 3 - Trabajo grupal</li>
+            <li>Módulo 4 - Trabajo grupal</li>
+          </ul>
         </section>
         <section className='main_about'>
-          <h3>About</h3>
-
+          <h3 className='main_title'>About</h3>
           <p>
             Motivated and eager to embark on a dynamic career in web
             development, I am a Junior Front-end Developer who recently
             completed the intensive AdaLab programming bootcamp, comprising 680
             hours of immersive learning.
           </p>
-
           <p>
             After six years of office work, I wholeheartedly decided to pursue
             my passion for programming, an interest that has captivated me for
@@ -73,7 +69,6 @@ function App() {
             led me to explore the intricacies of back-end programming, and I am
             currently immersing myself in learning Python.
           </p>
-
           <p>
             Driven by a passion for continuous learning and innovation, I am
             excited to contribute my creativity to a dynamic team where I can

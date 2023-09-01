@@ -1,0 +1,13 @@
+.main_projects {
+    padding: 20px 0;
+  ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    li {
+        height: 200px;
+        margin: 10px 10px 10px 0;
+        background-color: aqua;
+    }
+  }
+}
