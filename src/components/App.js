@@ -41,9 +41,30 @@ function App() {
             <p>Here's some personal projects I'm currently working on.</p>
           </div>
           <ul>
-            <li id='oido'>¡Oído cocina! Un juego de cartas.</li>
-            <li id='travel'>Japan travel planner</li>
-            <li id='api'>Warhammer 40k API (RESTful)</li>
+            <li>
+              <div className='project_img' id='blankimg'></div>
+              <p>¡Oído cocina! Un juego de cartas.</p>
+              <p className='project_blurb'>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                voluptates nemo vel dignissimos itaque suscipit atque.
+              </p>
+            </li>
+            <li>
+              <div className='project_img' id='blankimg'></div>
+              <p>Japan travel planner</p>
+              <p className='project_blurb'>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                voluptates nemo vel dignissimos itaque suscipit atque.
+              </p>
+            </li>
+            <li>
+              <div className='project_img' id='blankimg'></div>
+              <p>Warhammer 40k API (RESTful)</p>
+              <p className='project_blurb'>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                voluptates nemo vel dignissimos itaque suscipit atque.
+              </p>
+            </li>
           </ul>
         </section>
         <section className='main_projects'>
@@ -57,14 +78,70 @@ function App() {
             </p>
           </div>
           <ul>
-            <li>Módulo 1 - Evaluación final</li>
-            <li>Módulo 1 - Trabajo grupal</li>
-            <li>Módulo 2 - Evaluación intermedia</li>
-            <li>Módulo 2 - Evaluación final</li>
-            <li>Módulo 2 - Trabajo grupal</li>
-            <li>Módulo 3 - Evaluación final</li>
-            <li>Módulo 3 - Trabajo grupal</li>
-            <li>Módulo 4 - Trabajo grupal</li>
+            <li>
+              <div className='project_img' id='mod1-1'></div>
+              <p>Module 1 (HTML / CSS) - Final evaluation exercise</p>
+              <p className='project_blurb'>
+                Evaluation exercise for skill testing on web design, using HTML5
+                and CSS3, design given on separate Zeplin document.
+              </p>
+            </li>
+            <li>
+              <div className='project_img' id='mod1-2'></div>
+              <p>Module 1 (HTML / CSS) - Group project</p>
+              <p className='project_blurb'>
+                Group project using HTML5 and CSS3, following a Zeplin given
+                design, group of 6 students using Scrum and Agile methodology.
+              </p>
+            </li>
+            <li>
+              <div className='project_img' id='blankimg'></div>
+              <p>Módulo 2 - Evaluación intermedia</p>
+              <p className='project_blurb'>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                voluptates nemo vel dignissimos itaque suscipit atque.
+              </p>
+            </li>
+            <li>
+              <div className='project_img' id='blankimg'></div>
+              <p>Módulo 2 - Evaluación final</p>
+              <p className='project_blurb'>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                voluptates nemo vel dignissimos itaque suscipit atque.
+              </p>
+            </li>
+            <li>
+              <div className='project_img' id='blankimg'></div>
+              <p>Módulo 2 - Trabajo grupal</p>
+              <p className='project_blurb'>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                voluptates nemo vel dignissimos itaque suscipit atque.
+              </p>
+            </li>
+            <li>
+              <div className='project_img' id='blankimg'></div>
+              <p>Módulo 3 - Evaluación final</p>
+              <p className='project_blurb'>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                voluptates nemo vel dignissimos itaque suscipit atque.
+              </p>
+            </li>
+            <li>
+              <div className='project_img' id='blankimg'></div>
+              <p>Módulo 3 - Trabajo grupal</p>
+              <p className='project_blurb'>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                voluptates nemo vel dignissimos itaque suscipit atque.
+              </p>
+            </li>
+            <li>
+              <div className='project_img' id='blankimg'></div>
+              <p>Módulo 4 - Trabajo grupal</p>
+              <p className='project_blurb'>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                voluptates nemo vel dignissimos itaque suscipit atque.
+              </p>
+            </li>
           </ul>
         </section>
         <section className='main_about'>
