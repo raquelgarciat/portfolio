@@ -1,12 +1,16 @@
 import '../styles/main.scss';
-import '../fonts/lumios.otf';
-import headerpic from '../images/header.png';
 
 function App() {
   return (
     <div className='page'>
       <header className='header'>
-        <img src={headerpic} alt='logo' className='header_logo' />
+        <div>&lt; Hello world! /&gt;</div>
+        <div>
+          I'm <span>Raquel García</span>
+        </div>
+        <div className='container'>
+          <div className='typewriter'>a junior front-end developer.</div>
+        </div>
       </header>
       <nav role='navigation' className='navbar'>
         <div id='menuToggle'>
@@ -32,15 +36,26 @@ function App() {
       </nav>
       <main className='main'>
         <section className='main_projects'>
-          <h3 className='main_title'>Proyectos personales</h3>
+          <div className='blurb'>
+            <p>Thank you for stopping by!</p>
+            <p>Here's some personal projects I'm currently working on.</p>
+          </div>
           <ul>
-            <li>¡Oído cocina! Un juego de cartas.</li>
-            <li>Japan travel planner</li>
-            <li>Warhammer 40k API (RESTful)</li>
+            <li id='oido'>¡Oído cocina! Un juego de cartas.</li>
+            <li id='travel'>Japan travel planner</li>
+            <li id='api'>Warhammer 40k API (RESTful)</li>
           </ul>
         </section>
         <section className='main_projects'>
-          <h3 className='main_title'>Proyectos en Adalab</h3>
+          <div className='blurb'>
+            <p>
+              ...and here's the projects I worked on while studying at Adalab.
+            </p>
+            <p>
+              Some of them are evaluation exercises, and some others are group
+              work.
+            </p>
+          </div>
           <ul>
             <li>Módulo 1 - Evaluación final</li>
             <li>Módulo 1 - Trabajo grupal</li>
@@ -53,7 +68,7 @@ function App() {
           </ul>
         </section>
         <section className='main_about'>
-          <h3 className='main_title'>About</h3>
+          <h3 className='main_title'>About me</h3>
           <p>
             Motivated and eager to embark on a dynamic career in web
             development, I am a Junior Front-end Developer who recently

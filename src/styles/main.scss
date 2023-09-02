@@ -10,13 +10,7 @@
 @import 'layout/footer';
 
 :root {
-  background-color: #D5D3C5;
-  font-family: $font-sans;
-  color: $darkblue;
-}
-
-@font-face {
-  font-family: "Lumios";
-  src: local("lumios"),
-    url("../fonts/lumios.otf") format("opentype");
+  background-color: $darkgrey;
+  font-family: $font-serif;
+  color: $spearmint;
 }

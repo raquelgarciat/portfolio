@@ -1,5 +1,10 @@
 .main_about {
     display: flex;
     flex-direction: column;
+    text-align: justify;
     gap: 20px;
+    color: $mint;
+    max-width: 800px;
+    margin: auto;
+    font-size: 20px;
 }
