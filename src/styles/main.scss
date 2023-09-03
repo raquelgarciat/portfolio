@@ -3,8 +3,9 @@
 
 @import 'layout/main_page';
 @import 'layout/header';
+@import 'layout/hero';
+@import 'layout/nav';
 @import 'layout/main_main';
-@import 'layout/main_nav';
 @import 'layout/main_about';
 @import 'layout/main_projects';
 @import 'layout/footer';
@@ -13,4 +14,5 @@
   background-color: $darkgrey;
   font-family: $font-serif;
   color: $spearmint;
+  scroll-behavior: smooth;
 }
