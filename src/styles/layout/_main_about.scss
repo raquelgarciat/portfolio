@@ -1,12 +1,37 @@
 .main_about {
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    gap: 20px;
-    font-family: $font-sans;
-    color: $mint;
-    max-width: 800px;
-    margin: auto;
-    padding-top: 150px;
-    margin: 0 25px;
+  padding-top: 150px;
+  margin: 0 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.about {
+  width: 900px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #7cd4b70c;
+  border: 1px solid $teal;
+  border-radius: 10px;
+  padding: 20px;
+  &_img {
+    width: 85%;
+    height: 400px;
+    background-image: url('../../images/about.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-left: 15px;
+  }
+  &_text {
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+      li {
+        list-style: none;
+      }
+    }
+  }
 }

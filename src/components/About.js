@@ -1,27 +1,48 @@
 function About() {
   return (
-    <section className='main_about' id="about">
-      <h3 className='main_title'>About me</h3>
-      <p>
-        Motivated and eager to embark on a dynamic career in web development, I
-        am a Junior Front-end Developer who recently completed the intensive
-        AdaLab programming bootcamp, comprising 680 hours of immersive learning.
-      </p>
-      <p>
-        After six years of office work, I wholeheartedly decided to pursue my
-        passion for programming, an interest that has captivated me for years.
-        The Adalab course has been instrumental in honing my skills in creating
-        captivating and user-friendly web experiences. While my focus has been
-        primarily on front-end development, my curiosity has led me to explore
-        the intricacies of back-end programming, and I am currently immersing
-        myself in learning Python.
-      </p>
-      <p>
-        Driven by a passion for continuous learning and innovation, I am excited
-        to contribute my creativity to a dynamic team where I can collaborate in
-        developing cutting-edge solutions that elevate user experiences to new
-        heights.
-      </p>
+    <section className='main_about' id='about'>
+      <article className='about'>
+        <div className='about_img'></div>
+        <div className='about_text'>
+          <ul>
+            <li>
+              Hi! My name is Raquel!{' '}
+              <i class='fa-regular fa-face-smile-beam'></i>
+            </li>
+            <li>
+              I'm based in Madrid, Spain <i class='fa-solid fa-globe'></i>
+            </li>
+            <li>
+              I speak Spanish, Catalan and English{' '}
+              <i class='fa-solid fa-language'></i>
+            </li>
+            <li>
+              I love working with JavaScript, React.js and MySQL{' '}
+              <i class="fa-brands fa-react"></i>
+            </li>
+            <li>
+              I'm currently interested in Python as well{' '}
+              <i class="fa-brands fa-python"></i>
+            </li>
+            <li>
+              I never want to stop learning! {' '}
+              <i class="fa-solid fa-graduation-cap"></i>
+            </li>
+            <li>
+              I prefer to work remotely <i class='fa-solid fa-house-laptop'></i>
+            </li>
+            <li>
+              I'm available for working immediately{' '}
+              <i class='fa-regular fa-thumbs-up'></i>
+            </li>
+          </ul>
+        </div>
+      </article>
+      <div className='stack'>
+        <ul>
+          <li>logo</li>
+        </ul>
+      </div>
     </section>
   );
 }

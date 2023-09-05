@@ -54,12 +54,12 @@ function Projects() {
         </div>
         <ul>
           <li>
-            <div class='container'>
+            <div class='imgcontainer'>
               <div className='project_img' id='mod1-1'></div>
               <div class='middle'>
                 <div class='text'>
-                  <a href="https://www.w3schools.com/"><i class="fa-brands fa-github"></i></a>
-                  <a href="https://www.w3schools.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a target="blank" href="https://github.com/raquelgarciat/modulo-1-evaluacion-final-raquelgarciat"><i class="fa-brands fa-github"></i></a>
+                  <a target="blank" href="https://raquelgarciat.github.io/modulo-1-evaluacion-final-raquelgarciat/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
               </div>
             </div>
@@ -70,12 +70,12 @@ function Projects() {
             </p>
           </li>
           <li>
-          <div class='container'>
+          <div class='imgcontainer'>
             <div className='project_img' id='mod1-2'></div>
             <div class='middle'>
                 <div class='text'>
-                  <a href="https://www.w3schools.com/"><i class="fa-brands fa-github"></i></a>
-                  <a href="https://www.w3schools.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a target="blank" href="https://github.com/raquelgarciat/project-promo-T-module-1-team-3"><i class="fa-brands fa-github"></i></a>
+                  <a target="blank" href="https://raquelgarciat.github.io/project-promo-T-module-1-team-3/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
               </div>
             </div>
@@ -86,12 +86,12 @@ function Projects() {
             </p>
           </li>
           <li>
-          <div class='container'>
+          <div class='imgcontainer'>
             <div className='project_img' id='mod2-2'></div>
             <div class='middle'>
                 <div class='text'>
-                  <a href="https://www.w3schools.com/"><i class="fa-brands fa-github"></i></a>
-                  <a href="https://www.w3schools.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a target="blank" href="https://github.com/raquelgarciat/modulo-2-evaluacion-intermedia-raquelgarciat"><i class="fa-brands fa-github"></i></a>
+                  <a target="blank" href="https://raquelgarciat.github.io/modulo-2-evaluacion-intermedia-raquelgarciat/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
               </div>
             </div>
@@ -103,12 +103,12 @@ function Projects() {
             </p>
           </li>
           <li>
-          <div class='container'>
+          <div class='imgcontainer'>
             <div className='project_img' id='mod2-3'></div>
             <div class='middle'>
                 <div class='text'>
-                  <a href="https://www.w3schools.com/"><i class="fa-brands fa-github"></i></a>
-                  <a href="https://www.w3schools.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a target="blank" href="https://github.com/raquelgarciat/modulo-2-evaluacion-final-raquelgarciat"><i class="fa-brands fa-github"></i></a>
+                  <a target="blank" href="https://raquelgarciat.github.io/modulo-2-evaluacion-final-raquelgarciat/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
               </div>
             </div>
@@ -120,12 +120,12 @@ function Projects() {
             </p>
           </li>
           <li>
-          <div class='container'>
+          <div class='imgcontainer'>
             <div className='project_img' id='mod2-1'></div>
             <div class='middle'>
                 <div class='text'>
-                  <a href="https://www.w3schools.com/"><i class="fa-brands fa-github"></i></a>
-                  <a href="https://www.w3schools.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a target="blank" href="https://github.com/raquelgarciat/cardcreator-javascript-adalab-teamproject"><i class="fa-brands fa-github"></i></a>
+                  <a target="blank" href="https://raquelgarciat.github.io/cardcreator-javascript-adalab-teamproject/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
               </div>
             </div>
@@ -137,12 +137,12 @@ function Projects() {
             </p>
           </li>
           <li>
-          <div class='container'>
+          <div class='imgcontainer'>
             <div className='project_img' id='mod3-2'></div>
             <div class='middle'>
                 <div class='text'>
-                  <a href="https://www.w3schools.com/"><i class="fa-brands fa-github"></i></a>
-                  <a href="https://www.w3schools.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a target="blank" href="https://github.com/raquelgarciat/modulo-3-evaluacion-intermedia-raquelgarciat"><i class="fa-brands fa-github"></i></a>
+                  <a target="blank" href="https://raquelgarciat.github.io/modulo-3-evaluacion-intermedia-raquelgarciat/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
               </div>
             </div>
@@ -155,12 +155,12 @@ function Projects() {
             </p>
           </li>
           <li>
-          <div class='container'>
+          <div class='imgcontainer'>
             <div className='project_img' id='mod3-1'></div>
             <div class='middle'>
                 <div class='text'>
-                  <a href="https://www.w3schools.com/"><i class="fa-brands fa-github"></i></a>
-                  <a href="https://www.w3schools.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a target="blank" href="https://github.com/raquelgarciat/modulo-3-evaluacion-final-raquelgarciat"><i class="fa-brands fa-github"></i></a>
+                  <a target="blank" href="https://raquelgarciat.github.io/modulo-3-evaluacion-final-raquelgarciat/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
               </div>
             </div>
@@ -173,12 +173,12 @@ function Projects() {
             </p>
           </li>
           <li>
-          <div class='container'>
+          <div class='imgcontainer'>
             <div className='project_img' id='mod3-3'></div>
             <div class='middle'>
                 <div class='text'>
-                  <a href="https://www.w3schools.com/"><i class="fa-brands fa-github"></i></a>
-                  <a href="https://www.w3schools.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a target="blank" href="https://github.com/raquelgarciat/project-promo-t-module-3-team-4"><i class="fa-brands fa-github"></i></a>
+                  <a target="blank" href="https://raquelgarciat.github.io/project-promo-t-module-3-team-4/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
               </div>
             </div>
@@ -190,12 +190,12 @@ function Projects() {
             </p>
           </li>
           <li>
-          <div class='container'>
+          <div class='imgcontainer'>
             <div className='project_img' id='mod4'></div>
             <div class='middle'>
                 <div class='text'>
-                  <a href="https://www.w3schools.com/"><i class="fa-brands fa-github"></i></a>
-                  <a href="https://www.w3schools.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a target="blank" href="https://github.com/raquelgarciat/project-promo-t-module-4-team-4"><i class="fa-brands fa-github"></i></a>
+                  <a target="blank" href="https://project-promo-t-module-4-team-4.onrender.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
               </div>
             </div>

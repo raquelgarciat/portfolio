@@ -93,7 +93,7 @@
   background-image: url(../../images/mod4.jpg);
 }
 
-.container {
+.imgcontainer {
   position: relative;
   width: 50%;
 }
@@ -118,11 +118,11 @@
   text-align: center;
 }
 
-.container:hover .image {
+.imgcontainer:hover .image {
   opacity: 0.3;
 }
 
-.container:hover .middle {
+.imgcontainer:hover .middle {
   opacity: 1;
 }
 
