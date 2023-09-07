@@ -31,9 +31,9 @@ function Contact() {
             <label htmlFor='subject'>Subject</label>
             <input
               placeholder='Subject *'
-              id='email'
-              type='email'
-              name='email'
+              id='subject'
+              type='subject'
+              name='subject'
               required
             />
           </fieldset>
