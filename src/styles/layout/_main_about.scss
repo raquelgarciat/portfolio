@@ -1,6 +1,5 @@
 .main_about {
   padding-top: 150px;
-  margin: 0 50px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -24,6 +23,10 @@
     margin-left: 15px;
   }
   &_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     ul {
       display: flex;
       flex-direction: column;
@@ -34,4 +37,89 @@
       }
     }
   }
+  &_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+    font-size: 40px;
+    a {
+      text-decoration: none;
+      color: $spearmint;
+      &:hover {
+        transform: translate(0px, -3px);
+        transition: ease-in-out 0.2s;
+        color: $mint;
+      }
+    }
+  }
+}
+
+.stack {
+  width: 900px;
+  margin: auto;
+  background-color: #7cd4b70c;
+  padding: 20px 0;
+  border-radius: 10px;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    li {
+      list-style: none;
+      height: 50px;
+      width: 50px;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+}
+
+#stack_html {
+  background-image: url(../../images/html5.png);
+}
+#stack_css {
+  background-image: url(../../images/css3.webp);
+}
+#stack_sass {
+  background-image: url(../../images/sass.webp);
+}
+#stack_js {
+  background-image: url(../../images/javascript.png);
+}
+#stack_react {
+  background-image: url(../../images/react.svg);
+}
+#stack_jest {
+  background-image: url(../../images/jest.webp);
+}
+#stack_express {
+  background-image: url(../../images/express.png);
+}
+#stack_node {
+  background-image: url(../../images/node.png);
+}
+#stack_mysql {
+  background-image: url(../../images/mysql.png);
+}
+#stack_mongodb {
+  background-image: url(../../images/mongodb.svg);
+}
+#stack_json {
+  background-image: url(../../images/json.png);
+}
+#stack_vscode {
+  background-image: url(../../images/vscode.png);
+}
+#stack_git {
+  background-image: url(../../images/git.png);
+}
+#stack_github {
+  background-image: url(../../images/github.png);
+}
+#stack_scrum {
+  background-image: url(../../images/scrum.png);
 }
