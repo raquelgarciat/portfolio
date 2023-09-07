@@ -4,7 +4,7 @@ function Contact() {
       <div className='contact_container'>
         <h3>Get in touch!</h3>
         <p>I'd love to hear from you :)</p>
-        <form>
+        <form action='https://formspree.io/f/xwkdbype' method='POST'>
           <div className='form_container'>
             <fieldset>
               <label htmlFor='firstName'>First name</label>
@@ -48,7 +48,7 @@ function Contact() {
               required
             ></textarea>
           </fieldset>
-          <div className="button_container">
+          <div className='button_container'>
             <input className='button' type='reset' value='Clear all' />
             <input className='button' type='submit' value='Send message' />
           </div>
