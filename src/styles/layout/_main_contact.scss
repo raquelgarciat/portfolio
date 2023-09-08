@@ -1,28 +1,18 @@
 .contact {
-  margin-top: 150px;
-  margin-bottom: 50px;
+  width: 900px;
+  padding-top: 150px;
+  margin: auto;
   @media screen and (max-width: 720px) {
     width: 100%;
-    margin: 150px 20px 0 20px;
   }
   &_container {
-    margin: auto;
-    max-width: 900px;
     background-color: #7cd4b70c;
     border: 1px solid $teal;
     border-radius: 10px;
     text-align: center;
     padding: 25px;
     @media screen and (max-width: 720px) {
-      width: 100%;
-    }
-    h3 {
-      font-size: 36px;
-      text-align: left;
-    }
-    p {
-      font-size: 22px;
-      text-align: left;
+      margin: 0 20px;
     }
     form {
       margin-top: 25px;
@@ -49,6 +39,19 @@
         }
       }
     }
+  }
+}
+.contact_legend {
+  @media screen and (max-width: 720px) {
+    width: 100%;
+  }
+  h3 {
+    font-size: 36px;
+    text-align: left;
+  }
+  p {
+    font-size: 22px;
+    text-align: left;
   }
 }
 .form_container {
@@ -89,6 +92,9 @@
   &_container {
     display: flex;
     flex-direction: row;
+    @media screen and (max-width: 720px) {
+      justify-content: center;
+    }
     gap: 20px;
   }
 }

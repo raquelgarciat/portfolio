@@ -1,10 +1,12 @@
 function Contact() {
   return (
     <section className='contact' id='contact'>
-      <div className='contact_container'>
-        <h3>Get in touch!</h3>
-        <p>I'd love to hear from you :)</p>
-        <form action='https://formspree.io/f/xwkdbype' method='POST'>
+      <div className="contact_container">
+        <div className='contact_legend'>
+          <h3>Get in touch!</h3>
+          <p>I'd love to hear from you :)</p>
+        </div>
+        <form className="form_main" action='https://formspree.io/f/xwkdbype' method='POST'>
           <div className='form_container'>
             <fieldset>
               <label htmlFor='firstName'>First name</label>
