@@ -181,3 +181,14 @@
 #menuToggle input:checked ~ ul {
   transform: none;
 }
+
+.navbar {
+  background-color: #29373aef;
+  height: 130px;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  @media screen and (min-width: 720px) {
+    width: 0;
+  }
+}
