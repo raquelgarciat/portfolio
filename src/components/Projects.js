@@ -8,7 +8,14 @@ function Projects() {
         </div>
         <ul>
           <li>
-            <div className='project_img' id='blankimg'></div>
+            <span class='blankimgcontainer'>
+              <a
+                target='blank'
+                href='https://github.com/raquelgarciat/project-min'
+              >
+                <i class='fa-brands fa-github'></i>
+              </a>
+            </span>
             <p>¡Oído cocina! A card game.</p>
             <p className='project_blurb'>
               Card game made in React.js, using a REST API for ingredient cards.
@@ -18,7 +25,14 @@ function Projects() {
             <p>- work in progress -</p>
           </li>
           <li>
-            <div className='project_img' id='blankimg'></div>
+          <span class='blankimgcontainer'>
+              <a
+                target='blank'
+                href='https://github.com/raquelgarciat/japan-travelguide'
+              >
+                <i class='fa-brands fa-github'></i>
+              </a>
+            </span>
             <p>Travel planner (Japan)</p>
             <p className='project_blurb'>
               Travel planner using React.js, personal project for the
@@ -30,7 +44,14 @@ function Projects() {
             <p>- work in progress -</p>
           </li>
           <li>
-            <div className='project_img' id='blankimg'></div>
+          <span class='blankimgcontainer'>
+              <a
+                target='blank'
+                href='https://github.com/raquelgarciat/40k-api'
+              >
+                <i class='fa-brands fa-github'></i>
+              </a>
+            </span>
             <p>Warhammer 40k REST API</p>
             <p className='project_blurb'>
               RESTful API for data keeping of the newest edition for the game
@@ -58,8 +79,18 @@ function Projects() {
               <div className='project_img' id='mod1-1'></div>
               <div class='middle'>
                 <div class='text'>
-                  <a target="blank" href="https://github.com/raquelgarciat/modulo-1-evaluacion-final-raquelgarciat"><i class="fa-brands fa-github"></i></a>
-                  <a target="blank" href="https://raquelgarciat.github.io/modulo-1-evaluacion-final-raquelgarciat/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a
+                    target='blank'
+                    href='https://github.com/raquelgarciat/modulo-1-evaluacion-final-raquelgarciat'
+                  >
+                    <i class='fa-brands fa-github'></i>
+                  </a>
+                  <a
+                    target='blank'
+                    href='https://raquelgarciat.github.io/modulo-1-evaluacion-final-raquelgarciat/'
+                  >
+                    <i class='fa-solid fa-arrow-up-right-from-square'></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -70,12 +101,22 @@ function Projects() {
             </p>
           </li>
           <li>
-          <div class='imgcontainer'>
-            <div className='project_img' id='mod1-2'></div>
-            <div class='middle'>
+            <div class='imgcontainer'>
+              <div className='project_img' id='mod1-2'></div>
+              <div class='middle'>
                 <div class='text'>
-                  <a target="blank" href="https://github.com/raquelgarciat/project-promo-T-module-1-team-3"><i class="fa-brands fa-github"></i></a>
-                  <a target="blank" href="https://raquelgarciat.github.io/project-promo-T-module-1-team-3/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a
+                    target='blank'
+                    href='https://github.com/raquelgarciat/project-promo-T-module-1-team-3'
+                  >
+                    <i class='fa-brands fa-github'></i>
+                  </a>
+                  <a
+                    target='blank'
+                    href='https://raquelgarciat.github.io/project-promo-T-module-1-team-3/'
+                  >
+                    <i class='fa-solid fa-arrow-up-right-from-square'></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -86,12 +127,22 @@ function Projects() {
             </p>
           </li>
           <li>
-          <div class='imgcontainer'>
-            <div className='project_img' id='mod2-2'></div>
-            <div class='middle'>
+            <div class='imgcontainer'>
+              <div className='project_img' id='mod2-2'></div>
+              <div class='middle'>
                 <div class='text'>
-                  <a target="blank" href="https://github.com/raquelgarciat/modulo-2-evaluacion-intermedia-raquelgarciat"><i class="fa-brands fa-github"></i></a>
-                  <a target="blank" href="https://raquelgarciat.github.io/modulo-2-evaluacion-intermedia-raquelgarciat/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a
+                    target='blank'
+                    href='https://github.com/raquelgarciat/modulo-2-evaluacion-intermedia-raquelgarciat'
+                  >
+                    <i class='fa-brands fa-github'></i>
+                  </a>
+                  <a
+                    target='blank'
+                    href='https://raquelgarciat.github.io/modulo-2-evaluacion-intermedia-raquelgarciat/'
+                  >
+                    <i class='fa-solid fa-arrow-up-right-from-square'></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -103,12 +154,22 @@ function Projects() {
             </p>
           </li>
           <li>
-          <div class='imgcontainer'>
-            <div className='project_img' id='mod2-3'></div>
-            <div class='middle'>
+            <div class='imgcontainer'>
+              <div className='project_img' id='mod2-3'></div>
+              <div class='middle'>
                 <div class='text'>
-                  <a target="blank" href="https://github.com/raquelgarciat/modulo-2-evaluacion-final-raquelgarciat"><i class="fa-brands fa-github"></i></a>
-                  <a target="blank" href="https://raquelgarciat.github.io/modulo-2-evaluacion-final-raquelgarciat/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a
+                    target='blank'
+                    href='https://github.com/raquelgarciat/modulo-2-evaluacion-final-raquelgarciat'
+                  >
+                    <i class='fa-brands fa-github'></i>
+                  </a>
+                  <a
+                    target='blank'
+                    href='https://raquelgarciat.github.io/modulo-2-evaluacion-final-raquelgarciat/'
+                  >
+                    <i class='fa-solid fa-arrow-up-right-from-square'></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -120,12 +181,22 @@ function Projects() {
             </p>
           </li>
           <li>
-          <div class='imgcontainer'>
-            <div className='project_img' id='mod2-1'></div>
-            <div class='middle'>
+            <div class='imgcontainer'>
+              <div className='project_img' id='mod2-1'></div>
+              <div class='middle'>
                 <div class='text'>
-                  <a target="blank" href="https://github.com/raquelgarciat/cardcreator-javascript-adalab-teamproject"><i class="fa-brands fa-github"></i></a>
-                  <a target="blank" href="https://raquelgarciat.github.io/cardcreator-javascript-adalab-teamproject/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a
+                    target='blank'
+                    href='https://github.com/raquelgarciat/cardcreator-javascript-adalab-teamproject'
+                  >
+                    <i class='fa-brands fa-github'></i>
+                  </a>
+                  <a
+                    target='blank'
+                    href='https://raquelgarciat.github.io/cardcreator-javascript-adalab-teamproject/'
+                  >
+                    <i class='fa-solid fa-arrow-up-right-from-square'></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -137,12 +208,22 @@ function Projects() {
             </p>
           </li>
           <li>
-          <div class='imgcontainer'>
-            <div className='project_img' id='mod3-2'></div>
-            <div class='middle'>
+            <div class='imgcontainer'>
+              <div className='project_img' id='mod3-2'></div>
+              <div class='middle'>
                 <div class='text'>
-                  <a target="blank" href="https://github.com/raquelgarciat/modulo-3-evaluacion-intermedia-raquelgarciat"><i class="fa-brands fa-github"></i></a>
-                  <a target="blank" href="https://raquelgarciat.github.io/modulo-3-evaluacion-intermedia-raquelgarciat/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a
+                    target='blank'
+                    href='https://github.com/raquelgarciat/modulo-3-evaluacion-intermedia-raquelgarciat'
+                  >
+                    <i class='fa-brands fa-github'></i>
+                  </a>
+                  <a
+                    target='blank'
+                    href='https://raquelgarciat.github.io/modulo-3-evaluacion-intermedia-raquelgarciat/'
+                  >
+                    <i class='fa-solid fa-arrow-up-right-from-square'></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -155,12 +236,22 @@ function Projects() {
             </p>
           </li>
           <li>
-          <div class='imgcontainer'>
-            <div className='project_img' id='mod3-1'></div>
-            <div class='middle'>
+            <div class='imgcontainer'>
+              <div className='project_img' id='mod3-1'></div>
+              <div class='middle'>
                 <div class='text'>
-                  <a target="blank" href="https://github.com/raquelgarciat/modulo-3-evaluacion-final-raquelgarciat"><i class="fa-brands fa-github"></i></a>
-                  <a target="blank" href="https://raquelgarciat.github.io/modulo-3-evaluacion-final-raquelgarciat/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a
+                    target='blank'
+                    href='https://github.com/raquelgarciat/modulo-3-evaluacion-final-raquelgarciat'
+                  >
+                    <i class='fa-brands fa-github'></i>
+                  </a>
+                  <a
+                    target='blank'
+                    href='https://raquelgarciat.github.io/modulo-3-evaluacion-final-raquelgarciat/'
+                  >
+                    <i class='fa-solid fa-arrow-up-right-from-square'></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -173,12 +264,22 @@ function Projects() {
             </p>
           </li>
           <li>
-          <div class='imgcontainer'>
-            <div className='project_img' id='mod3-3'></div>
-            <div class='middle'>
+            <div class='imgcontainer'>
+              <div className='project_img' id='mod3-3'></div>
+              <div class='middle'>
                 <div class='text'>
-                  <a target="blank" href="https://github.com/raquelgarciat/project-promo-t-module-3-team-4"><i class="fa-brands fa-github"></i></a>
-                  <a target="blank" href="https://raquelgarciat.github.io/project-promo-t-module-3-team-4/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a
+                    target='blank'
+                    href='https://github.com/raquelgarciat/project-promo-t-module-3-team-4'
+                  >
+                    <i class='fa-brands fa-github'></i>
+                  </a>
+                  <a
+                    target='blank'
+                    href='https://raquelgarciat.github.io/project-promo-t-module-3-team-4/'
+                  >
+                    <i class='fa-solid fa-arrow-up-right-from-square'></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -190,12 +291,22 @@ function Projects() {
             </p>
           </li>
           <li>
-          <div class='imgcontainer'>
-            <div className='project_img' id='mod4'></div>
-            <div class='middle'>
+            <div class='imgcontainer'>
+              <div className='project_img' id='mod4'></div>
+              <div class='middle'>
                 <div class='text'>
-                  <a target="blank" href="https://github.com/raquelgarciat/project-promo-t-module-4-team-4"><i class="fa-brands fa-github"></i></a>
-                  <a target="blank" href="https://project-promo-t-module-4-team-4.onrender.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a
+                    target='blank'
+                    href='https://github.com/raquelgarciat/project-promo-t-module-4-team-4'
+                  >
+                    <i class='fa-brands fa-github'></i>
+                  </a>
+                  <a
+                    target='blank'
+                    href='https://project-promo-t-module-4-team-4.onrender.com/'
+                  >
+                    <i class='fa-solid fa-arrow-up-right-from-square'></i>
+                  </a>
                 </div>
               </div>
             </div>

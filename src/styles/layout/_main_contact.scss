@@ -2,7 +2,7 @@
   width: 900px;
   padding-top: 150px;
   margin: auto;
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 900px) {
     width: 100%;
   }
   &_container {
@@ -11,9 +11,7 @@
     border-radius: 10px;
     text-align: center;
     padding: 25px;
-    @media screen and (max-width: 720px) {
-      margin: 0 20px;
-    }
+    margin: 0 20px;
     form {
       margin-top: 25px;
       text-align: left;
