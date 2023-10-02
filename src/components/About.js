@@ -47,7 +47,7 @@ function About() {
             >
             <i class='fa-brands fa-square-github'></i></a>
             <a target="blank" title="Download my CV!"
-              href='https://pdfhost.io/v/Ld~~o.Q1h_Raquel_Garcia_Torrejon_Resume'
+              href='https://drive.google.com/file/d/1IuqLaNkkefTB9aQNUIp50s6BG2h0voXi/view?usp=sharing'
             >
             <i class='fa-solid fa-file-arrow-down'></i></a>
           </div>
